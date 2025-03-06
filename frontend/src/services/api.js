@@ -1,0 +1,1 @@
+export const fetchProducts = async () => {\n  try {\n    const response = await fetch('/api/products');\n    const data = await response.json();\n    return data;\n  } catch (error) {\n    console.error('Error fetching products:', error);\n    throw error;\n  }\n};
