@@ -1,0 +1,1 @@
+import React from 'react';\n\nfunction Cart() {\n  return (\n    <main>\n      <h1>Your Cart</h1>\n      <p>No items in your cart.</p>\n    </main>\n  );\n}\n\nexport default Cart;
