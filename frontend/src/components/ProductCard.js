@@ -1,0 +1,1 @@
+import React from 'react';\n\nfunction ProductCard({ product }) {\n  return (\n    <div className="product-card">\n      <img src={product.image} alt={product.name} />\n      <h2>{product.name}</h2>\n      <p>${product.price}</p>\n      <button>Add to Cart</button>\n    </div>\n  );\n}\n\nexport default ProductCard;
