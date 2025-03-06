@@ -1,0 +1,1 @@
+import React from 'react';\n\nfunction Home() {\n  return (\n    <main>\n      <h1>Welcome to the Shopping App</h1>\n      <p>Discover amazing products at unbeatable prices!</p>\n    </main>\n  );\n}\n\nexport default Home;
